@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Rubik', sans-serif;
+  color: #161c2d;
+}
+
+body {
+  background-color: #f4f7fa;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(161, 161, 161);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+nav {
+  height: 75px;
+  z-index: 99;
+  transition: .2s ease-in;
+}
+
+nav.nav-active {
+  position: sticky;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
+}
+
+nav .content {
+  max-width: 1100px;
+  height: 100%;
+}
+
+html.dark .list-nav.small-device {
+  background-color: #1e293b;
+}
+
+.list-nav.small-device {
+  height: 100vh !important;
+  width: 80vw;
+  padding-left: 20px;
+  right: -9990px;
+  top: 0;
+  position: fixed;
+  padding-top: 100px;
+  transition: .5s ease-in-out;
+}
+
+.list-nav.small-device.active {
+  height: 100vh !important;
+  width: 80vw;
+  padding-left: 20px;
+  right: 0px;
+  top: 0;
+  position: fixed;
+  padding-top: 100px;
+}
+
+.content {
+  max-width: 1100px;
+  margin: auto;
+}
+
+section.about {
+  height: 70vh;
+  margin-top: 40px;
+}
+
+section.about img {
+  max-width: 85%;
+}
+
+section.about button {
+  width: 200px;
+}
+
+.toggle-menu-nav {
+  z-index: 999;
+}
+
+section.services {
+  height: 60vh;
+}
+
+section.skills {
+  margin: 100px 0;
+  padding-bottom: 50px;
+  /* height: 60vh; */
+}
+
+section.project {
+  margin: 200px 0;
+  /* height: 60vh; */
+}
+
+.scroll p {
+  transform: rotate(90deg);
+}
+
+.my-project {
+  max-width: 700px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-detail-project:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1308px) {
+  .content {
+    max-width: 1100px;
+    padding: 0 100px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  section.skills {
+    margin-top: 400px;
+  }
+
+  section.services {
+    margin-top: 400px;
+  }
+
+  section.about img {
+    max-width: 70%;
+    margin: 90px 0;
+  }
+
+  .content {
+    max-width: 1100px;
+    padding: 0 30px;
+    margin: auto;
+  }
+}

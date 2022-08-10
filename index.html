@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link href="assets/css/output.css" rel="stylesheet" />
+  <link href="assets/css/index.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.css">
+  <title>Portfolio | Hidayat</title>
+</head>
+
+<body class="dark:bg-slate-900">
+  <nav class="bg-transparent top-0 ">
+    <div class="content mx-auto flex items-center justify-between">
+      <h1 class="font-semibold text-xl text-slate-900 pt-4 md:pt-0 px-5 lg:px-0 dark:text-slate-200">
+        Portfolio
+      </h1>
+      <button class="mr-8 mt-4 border px-4 py-2 rounded-md toggle-menu-nav duration-200 hover:bg-blue-200">
+        <i class="fas fa-align-right text-lg dark:text-slate-300"></i>
+      </button>
+      <div class="list-nav  w-1/2 md:bg-transparent bg-white ">
+        <ul class="flex justify-around md:flex-row flex-col text-md font-medium">
+          <li class="md:py-4 py-5 dark:text-slate-300">
+            <a href="#about" class="page-scroll hover:text-blue-500 duration-200 ease-in-out">About</a>
+          </li>
+          <li class="md:py-4 py-5 dark:text-slate-300">
+            <a href="#services" class="page-scroll hover:text-blue-500 duration-200 ease-in-out">Services</a>
+          </li>
+          <li class="md:py-4 py-5 dark:text-slate-300">
+            <a href="#skills" class="page-scroll hover:text-blue-500 duration-200 ease-in-out">Skills</a>
+          </li>
+          <li class="md:py-4 py-5 dark:text-slate-300">
+            <a href="#project" class="page-scroll hover:text-blue-500 duration-200 ease-in-out">Project</a>
+          </li>
+          <li class="md:py-4 py-5 dark:text-slate-300">
+            <a href="#contact" class="page-scroll hover:text-blue-500 duration-200 ease-in-out">Contact</a>
+          </li>
+          <li class="md:py-2 py-5 dark:text-slate-300">
+            <button id="btn-dark-mode" class="border px-4 py-2 rounded-md duration-200 hover:bg-blue-300 group"><i
+                class="far fa-moon group-hover:text-white dark:text-slate-300" id="icon-dark-mode"></i></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="social top-40 left-5 md:left-16 absolute md:fixed flex flex-col">
+    <i class="fas fa-grip-lines-vertical text-center py-3 text-slate-400"></i>
+    <a href="https://www.linkedin.com/in/hidayat-yy/" target="_blank" class="py-2">
+      <i class="fab fa-linkedin-in text-3xl text-blue-500 hover:text-blue-400"></i>
+    </a>
+    <a href="https://github.com/hidayatbakri" target="_blank" class="py-2">
+      <i class="fab fa-github-alt text-3xl text-blue-500 hover:text-blue-400"></i>
+    </a>
+    <a href="#" target="_blank" class="py-2">
+      <i class="fab fa-instagram text-3xl text-blue-500 hover:text-blue-400"></i>
+    </a>
+  </div>
+  <div class="scroll top-40 right-2 md:right-16 absolute md:fixed flex items-center flex-col group">
+    <i
+      class="fas fa-mouse py-8 text-blue-500 group-hover:text-blue-400 text-2xl duration-100 ease-in-out group-hover:pb-9"></i>
+    <p class="text-blue-500 group-hover:text-blue-400 ease-linear duration-100">Scroll on</p>
+  </div>
+  <section id="about" class="about flex items-center">
+    <div class="content grid grid-cols-1 md:grid-cols-2 px-5 lg:px-0">
+      <div class="flex justify-center flex-col order-last md:order-first">
+        <h3 class="text-xl text-slate-400 font-medium">About Me</h3>
+        <h1 class="text-5xl font-bold py-8 dark:text-slate-200">Hy 👋, I am Hidayat B</h1>
+        <p class="text-xl text-slate-500 dark:text-slate-400">
+          Hi, I am a programmer in the field of frontend and backend developer
+          or fullstack developer. I am punctual, discipline, and uphold
+          quality person .
+        </p>
+        <button
+          class="bg-blue-500 rounded-md py-3 text-white font-semibold text-lg mt-10 duration-300 ease hover:bg-blue-600">Download
+          Cv</button>
+      </div>
+      <div class="flex items-center justify-center">
+        <img src="./assets/img/header-img.png" alt="header-img">
+      </div>
+    </div>
+  </section>
+  <section id="services" class="services mt-24 ">
+    <div class="content flex justify-center items-center h-full flex-wrap">
+      <div class="m-5">
+        <h3 class="text-xl text-slate-400 font-medium">My Services</h3>
+        <h1 class="text-4xl py-3 font-semibold dark:text-slate-200">What I Offer</h1>
+      </div>
+      <div
+        class="web group w-64 m-5 border-2 border-slate-200 h-64 p-5 flex flex-col justify-center items-start rounded-lg duration-150 ease-in-out hover:bg-white hover:border-0 dark:hover:bg-gray-700 dark:border-gray-500">
+        <h3 class="font-medium text-2xl text-slate-600 dark:text-slate-400 dark:group-hover:text-slate-200">Web
+          Development</h3>
+        <a href="#" class="text-slate-400 group-hover:text-blue-500">See More <i
+            class="fas fa-long-arrow-alt-right pl-2 duration-200 ease-in text-blue-500 group-hover:pl-3"></i></a>
+      </div>
+      <div
+        class="web group w-64 m-5 border-2 border-slate-200 h-64 p-5 flex flex-col justify-center items-start rounded-lg duration-150 ease-in-out hover:bg-white hover:border-0 dark:hover:bg-gray-700 dark:border-gray-500">
+        <h3 class="font-medium text-2xl text-slate-600 dark:text-slate-400 dark:group-hover:text-slate-200">UI/UX Design
+        </h3>
+        <a href="#" class="text-slate-400 group-hover:text-blue-500">See More <i
+            class="fas fa-long-arrow-alt-right pl-2 duration-200 ease-in text-blue-500 group-hover:pl-3"></i></a>
+      </div>
+  </section>
+  <section id="skills" class="skills bg-white pt-20 dark:bg-gray-800">
+    <div class="content">
+      <h3 class="text-center text-xl text-slate-400 font-medium">My Ability</h3>
+      <h1 class="text-center text-3xl py-3 font-semibold dark:text-slate-200">Experience skills</h1>
+      <div class="my-skills flex justify-center flex-wrap mt-5">
+        <div class="language w-72 m-3">
+          <h2 class="text-lg text-slate-600 font-medium dark:text-slate-400">Language</h2>
+          <ul class="py-5">
+            <li class="dark:text-slate-400"><i class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>PHP
+            </li>
+            <li class="dark:text-slate-400"><i
+                class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>JavaScript</li>
+            <li class="dark:text-slate-400"><i class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>C++
+            </li>
+            <li class="dark:text-slate-400"><i class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>Java
+            </li>
+            <li class="dark:text-slate-400"><i
+                class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>Python</li>
+            <li class="dark:text-slate-400"><i class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>HTML
+            </li>
+            <li class="dark:text-slate-400"><i class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>CSS
+            </li>
+          </ul>
+        </div>
+        <div class="front-end w-72 m-3">
+          <h2 class="text-lg text-slate-600 font-medium dark:text-slate-400">Front-End Frameworks</h2>
+          <ul class="py-5">
+            <li class="dark:text-slate-400"><i
+                class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>Bootstrap</li>
+            <li class="dark:text-slate-400"><i
+                class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>Tailwind Css</li>
+          </ul>
+        </div>
+        <div class="back-end w-72 m-3">
+          <h2 class="text-lg text-slate-600 font-medium dark:text-slate-400">Frameworks Full Stack</h2>
+          <ul class="py-5">
+            <li class="dark:text-slate-400"><i
+                class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>Laravel</li>
+            <li class="dark:text-slate-400"><i
+                class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>React</li>
+            <li class="dark:text-slate-400"><i
+                class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>jQuery</li>
+            <li class="dark:text-slate-400"><i class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>Node
+              Js</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="project" class="project">
+    <div class="content">
+      <h3 class="text-center text-xl text-slate-400 font-medium">My Project</h3>
+      <h1 class="text-center text-3xl py-3 font-semibold dark:text-slate-200">Recent Project</h1>
+
+      <div class="list-project flex items-center flex-col mt-16">
+        <div class="bg-white my-project p-10 relative my-10 rounded-xl dark:bg-gray-800">
+          <div class="image">
+            <img src="./assets/img/hiBlog.png" alt="project" class="rounded-lg">
+          </div>
+          <h2 class="pt-5 text-xl font-medium dark:text-slate-200">hiBlog</h2>
+          <i class="fas fa-info-circle text-3xl text-blue-500 absolute right-14 btn-detail-project hover:text-blue-400 duration-150 ease-linear"
+            id="project1"></i>
+          <h3 class="text-slate-400">Personal Project</h3>
+          <div id="detailp-1" class="detail-project">
+            <h3 class="pt-10 font-medium text-lg dark:text-slate-200">Project Description</h3>
+            <p class="text-slate-500">This is my project to create a blog with Laravel8 technology as backend and
+              Bootstrap 5 as frontend. This
+              website has a login and register page but I have disabled the signup page so people can't enter my
+              website. On the admin/author page, there are several menus, the first is the dashboard page as the main
+              page after the admin/author login, after that the posting page which contains a list of posts that have
+              been made can also edit, view the preview page and delete a post and finally add a post. On the category
+              page, there are also cruds for categories. This page is responsive to all device sizes.</p>
+            <h3 class="pt-10 font-medium text-lg dark:text-slate-200">Skills & Technology</h3>
+            <ul class="py-5">
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>Laravel 8
+              </li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>HTML 5
+              </li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>CSS 3</li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>PHP</li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>Bootstrap
+                5</li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>JavaScript
+              </li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>MySql</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bg-white my-project p-10 rounded-xl relative my-10 dark:bg-gray-800">
+          <div class="image">
+            <img src="./assets/img/ngeser-login.png" alt="project" class="rounded-lg">
+          </div>
+          <h2 class="pt-5 text-xl font-medium dark:text-slate-200">Ngeser</h2>
+          <i class="fas fa-info-circle text-3xl text-blue-500 absolute right-14 btn-detail-project hover:text-blue-400 duration-150 ease-linear"
+            id="project2"></i>
+          <h3 class="text-slate-400">Personal Project</h3>
+          <div id="detailp-2" class="detail-project">
+            <h3 class="pt-10 font-medium text-lg dark:text-slate-200">Project Description</h3>
+            <p class="text-slate-500">Website for URL shortener for free. By using laravel 8 technology. This website
+              also has a QR code feature and the user can find out how many times the URL is clicked.</p>
+            <h3 class="pt-10 font-medium text-lg dark:text-slate-200">Skills & Technology</h3>
+            <ul class="py-5">
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>Laravel 8
+              </li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>HTML 5
+              </li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>CSS 3</li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>PHP</li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>Bootstrap
+                5</li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>JavaScript
+              </li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>MySql</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bg-white my-project p-10 rounded-xl relative my-10 dark:bg-gray-800">
+          <div class="image">
+            <img src="./assets/img/lp1.png" alt="project" class="rounded-lg">
+          </div>
+          <h2 class="pt-5 text-xl font-medium dark:text-slate-200">Landing Page</h2>
+          <i class="fas fa-info-circle text-3xl text-blue-500 absolute right-14 btn-detail-project hover:text-blue-400 duration-150 ease-linear"
+            id="project3"></i>
+          <h3 class="text-slate-400">Personal Project</h3>
+          <div id="detailp-3" class="detail-project">
+            <h3 class="pt-10 font-medium text-lg dark:text-slate-200">Project Description</h3>
+            <p class="text-slate-500">I created this website for an example of a landing page website.
+            </p>
+            <h3 class="pt-10 font-medium text-lg dark:text-slate-200">Skills & Technology</h3>
+            <ul class="py-5">
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>Tailwind
+                Css</li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>HTML 5
+              </li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>CSS 3</li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>JavaScript
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="bg-white my-project p-10 rounded-xl relative my-10 dark:bg-gray-800">
+          <div class="image">
+            <img src="./assets/img/infocovid.png" alt="project" class="rounded-lg">
+          </div>
+          <h2 class="pt-5 text-xl font-medium dark:text-slate-200">Data Covid-19 Indonesia</h2>
+          <i class="fas fa-info-circle text-3xl text-blue-500 absolute right-14 btn-detail-project hover:text-blue-400 duration-150 ease-linear"
+            id="project4"></i>
+          <h3 class="text-slate-400">Personal Project</h3>
+          <div id="detailp-4" class="detail-project">
+            <h3 class="pt-10 font-medium text-lg dark:text-slate-200">Project Description</h3>
+            <p class="text-slate-500">This project was created to help the public get information about the latest data
+              on covid-19 in Indonesia which is integrated with data from the central government, this website also has
+              information about the availability of vacant beds for both Covid-19 and non-covid-19 sufferers in all
+              hospitals in Indonesia, making it easier for the community.
+            </p>
+            <h3 class="pt-10 font-medium text-lg dark:text-slate-200">Skills & Technology</h3>
+            <ul class="py-5">
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>Tailwind
+                Css</li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>HTML 5
+              </li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>CSS 3</li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>JavaScript
+              </li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>jQuery
+              </li>
+              <li class="dark:text-slate-400"><i
+                  class="far fa-check-circle text-green-500 pr-5 py-2 font-medium"></i>Api
+                Integration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact my-16">
+    <div class="content">
+      <h3 class="text-xl text-slate-400 font-medium">Talk to me</h3>
+      <h1 class="text-3xl py-2 font-semibold dark:text-slate-200">My Contact</h1>
+      <div class="flex ">
+        <div>
+          <div
+            class="web group w-56 m-5 border-2 border-slate-200 h-56 p-5 flex flex-col justify-center items-center rounded-lg duration-150 ease-in-out hover:bg-white hover:border-0 dark:hover:bg-gray-700 dark:border-gray-500">
+            <i class="fas fa-envelope-open text-5xl pb-4 text-slate-500"></i>
+            <h3 class="font-medium text-2xl text-slate-600 dark:text-slate-400 dark:group-hover:text-slate-200">Email
+            </h3>
+            <a href="mailto:hidayatbakri13@gmail.com" class="text-slate-400 group-hover:text-blue-500">Write More <i
+                class="fas fa-long-arrow-alt-right pl-2 duration-200 ease-in text-blue-500 group-hover:pl-3"></i></a>
+          </div>
+          <div
+            class="web group w-56 m-5 border-2 border-slate-200 h-56 p-5 flex flex-col justify-center items-center rounded-lg duration-150 ease-in-out hover:bg-white hover:border-0 dark:hover:bg-gray-700 dark:border-gray-500">
+            <i class="fab fa-whatsapp text-5xl pb-4 text-slate-500"></i>
+            <h3 class="font-medium text-2xl text-slate-600 dark:text-slate-400 dark:group-hover:text-slate-200">WhatsApp
+            </h3>
+            <a href="https://whatsapp.com" target="_blank" class="text-slate-400 group-hover:text-blue-500">Write More
+              <i class="fas fa-long-arrow-alt-right pl-2 duration-200 ease-in text-blue-500 group-hover:pl-3"></i></a>
+          </div>
+        </div>
+        <div class="pl-20 mt-5" style="width: 100%;">
+          <div class="">
+            <input type="text" required class="h-12 rounded-md border-1 px-3 mb-8 dark:bg-slate-800"
+              style="width: 100%;" placeholder="Username">
+            <input type="text" required class="h-12 rounded-md border-1 px-3 mb-8 dark:bg-slate-800"
+              style="width: 100%;" placeholder="Email">
+            <textarea rows="10" class="p-2 dark:bg-slate-800 rounded-md" style="width: 100%;"
+              placeholder="Message"></textarea>
+            <button
+              class="bg-blue-500 rounded-md py-3 text-white font-semibold text-lg mt-10 w-24 float-right duration-300 ease hover:bg-blue-600">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="flex justify-center items-center flex-col h-52 mt-72 bg-white dark:bg-gray-900">
+    <h1 class="text-2xl font-semibold text-slate-800 dark:text-slate-300">Hidayat</h1>
+    <h3 class="text-slate-500">&copy; Hidayat · 2022 · All Right Reserved</h3>
+  </footer>
+
+
+
+  <script src="./assets/js/jQuery.js"></script>
+  <script src="./assets/js/swiper-bundle.min.js"></script>
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
