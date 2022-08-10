@@ -1258,4 +1258,8 @@ video {
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  .lg\:pl-20 {
+    padding-left: 5rem;
+  }
 }
