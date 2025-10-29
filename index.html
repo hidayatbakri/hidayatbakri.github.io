@@ -511,6 +511,17 @@
           >
             <a
               href="#"
+              id="img-proyek-5"
+              class="project-image absolute inset-0 w-full h-full opacity-100 transition-opacity duration-500"
+            >
+              <img
+                src="./assets/customerltv.png"
+                alt="FinTech Customer Lifetime Value (LTV)"
+                class="object-cover w-full h-full"
+              />
+            </a>
+            <a
+              href="#"
               id="img-proyek-3"
               class="project-image absolute inset-0 w-full h-full opacity-100 transition-opacity duration-500"
             >
@@ -560,6 +571,75 @@
         </div>
 
         <div class="flex flex-col">
+          <div
+            class="project-desc-item min-h-[70vh] flex flex-col justify-center mb-10"
+            data-image-target="#img-proyek-5"
+          >
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span
+                class="bg-gray-700 text-amber-300 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                >AI</span
+              >
+              <span
+                class="bg-gray-700 text-amber-300 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                >Data Analyst</span
+              >
+              <span
+                class="bg-gray-700 text-amber-300 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                >Data Science</span
+              >
+            </div>
+            <h3
+              class="text-white uppercase anton-regular text-3xl md:text-4xl mb-4"
+            >
+              FinTech Customer Lifetime Value (LTV)
+            </h3>
+            <p class="text-gray-300 text-lg mb-6 leading-relaxed">
+              This end-to-end FinTech project focuses on predicting Customer
+              Lifetime Value (LTV) for a digital wallet, enabling targeted
+              retention strategies to secure high-value users. The project
+              involved a dual-track approach: first, as a Data Analyst, I used
+              Tableau to conduct in-depth exploratory data analysis and build
+              interactive dashboards for customer segmentation, transaction
+              patterns, and retention insights. Second, as a Data Scientist, I
+              engineered a predictive model in Python, handling preprocessing,
+              feature engineering, and a comparative analysis of XGBRegressor
+              against Lasso Regression to forecast LTV accurately. <br />While
+              the XGBRegressor achieved near-perfect accuracy (0.998 R²), it
+              showed signs of overfitting. Therefore, the Lasso Regression model
+              (0.816 R² Test) was selected for its superior generalization and
+              interpretability. The model definitively identified
+              Avg_Transaction_Value and Total_Transactions as the two most
+              dominant predictors of LTV. Key insights revealed that while high
+              frequency and value are critical, recency is also vital;
+              high-value customers who become inactive show a significant drop
+              in predicted LTV. This provides a clear, data-driven
+              recommendation: focus retention efforts on active, high-value
+              users and launch re-engagement campaigns for high-potential
+              inactive customers.
+            </p>
+            <div class="flex gap-4 justify-center lg:justify-start">
+              <a
+                href="https://github.com/hidayatbakri/fintech-customer-ltv.git"
+                class="inline-flex items-center justify-center gap-2 px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-700 hover:bg-gray-600 anton-regular transition-colors duration-300 uppercase"
+              >
+                <img
+                  src="https://cdn.simpleicons.org/github/white"
+                  alt="GitHub"
+                  class="w-5 h-5"
+                />
+                GitHub
+              </a>
+              <a
+                href="https://public.tableau.com/app/profile/hidayat.bakri/viz/LTVCustomer/Dashboard1?publish=yes"
+                class="inline-flex items-center justify-center gap-2 px-6 py-3 border border-transparent text-base font-medium text-white bg-amber-400 hover:bg-amber-500 anton-regular transition-colors duration-300 uppercase"
+              >
+                <i class="bi bi-box-arrow-up-right text-lg"></i>
+                Live Demo
+              </a>
+            </div>
+          </div>
+
           <div
             class="project-desc-item min-h-[70vh] flex flex-col justify-center mb-10"
             data-image-target="#img-proyek-3"
@@ -877,6 +957,22 @@
                 class="text-white text-3xl md:text-4xl anton-regular uppercase transition-all duration-300 group-hover:text-amber-300"
               >
                 LinkedIn
+              </span>
+              <i
+                class="bi bi-arrow-right text-3xl text-gray-500 transition-all duration-300 group-hover:text-amber-300 group-hover:translate-x-2"
+              ></i>
+            </a>
+
+            <a
+              href="https://github.com/hidayatbakri"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group flex justify-between items-center py-8 border-b border-gray-700 transition-all duration-300"
+            >
+              <span
+                class="text-white text-3xl md:text-4xl anton-regular uppercase transition-all duration-300 group-hover:text-amber-300"
+              >
+                GitHub
               </span>
               <i
                 class="bi bi-arrow-right text-3xl text-gray-500 transition-all duration-300 group-hover:text-amber-300 group-hover:translate-x-2"
